@@ -130,6 +130,30 @@ USAGE:
     omit_from_output="y"
     sequence="100"
     ></trigger>
+	
+	<trigger
+    enabled="y"
+    match="(IMM)(OOC)*"
+    script="chats"
+    omit_from_output="y"
+    sequence="100"
+    ></trigger>
+	
+	<trigger
+    enabled="y"
+    match="You ooc say*"
+    script="chats"
+    omit_from_output="y"
+    sequence="100"
+    ></trigger>
+	
+	<trigger
+    enabled="y"
+    match="*ooc says*"
+    script="chats"
+    omit_from_output="y"
+    sequence="100"
+    ></trigger>
 </triggers>
 
 <aliases>
