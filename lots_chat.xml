@@ -154,6 +154,14 @@ USAGE:
     omit_from_output="y"
     sequence="100"
     ></trigger>
+	
+	<trigger
+    enabled="y"
+    match="*sends:*"
+    script="chats"
+    omit_from_output="y"
+    sequence="100"
+    ></trigger>
 </triggers>
 
 <aliases>
