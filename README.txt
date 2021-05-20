@@ -10,11 +10,8 @@
 # USAGE:
 
   chats echo on    : echo chats in main window
-  
   chats echo off   : do not echo chats
-  
   chats show       : show chats window
-  
   chats hide       : hide chats window
   
   LH-click a line to copy it to the clipboard
