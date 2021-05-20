@@ -6,8 +6,8 @@
 3) In mushclient, File -> Plugins -> Add -> Select <MUD>_chat.xml in the correct location
 
 
-/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
-USAGE:
+
+# USAGE:
 
   chats echo on    : echo chats in main window
   chats echo off   : do not echo chats
@@ -21,4 +21,4 @@ USAGE:
   
   Resize from bottom right corner.
   
-  /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+
