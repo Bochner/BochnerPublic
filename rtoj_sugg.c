@@ -91,13 +91,43 @@ Boost Morale                 100
 Skill                    Level Learned
 -------                  -------------
 Dissect                      60
-Transfusion                  66
+Medical Augmentation         66
+    // Transfusion                  66 // remove, seems pretty dumb
+    // Only one augmentation can be activated at once
+    // Can be used to buff group members
+    Regenerative Nanites     
+        // Nanites injected into your blood sense when you are taking damage and reactively begin to heal your hp
+        // Every time you get hit you get a chance to leech it as health instead
+    Revitalizers
+        // Implanted defibrillators will bring you back from the brink of death
+        // When triggered, goes on cooldown and removes buff until reused when cooldown is over with              
+    Toxic Blood
+        // Makes you immune to all poisons and when you are damage in combat, your blood poisons the enemy
+              
+
+
+Abomination                  70
 Surgical Removal             72
 Heal Serious Wound           78
 Reconstruct Body             84
 Surgical Strike              90
 Heal Critical Wound          95
 Euthanize                   100
+
+// Butcher
+Skill               Level Learned
+---------          --------------
+Dissect                  60
+Combat Heal              65
+Surgical Removal         70
+Abomination              70
+Reconstruct Body         75
+Under Fire               80
+Surgical Strike          85
+Take Cover               90
+Transfusion              95
+Boost Morale            100
+
 
 
 // Bounty Hunter Suggestions
