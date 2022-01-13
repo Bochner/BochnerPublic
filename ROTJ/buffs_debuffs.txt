@@ -1,0 +1,45 @@
+buffs:
+* crit chance
+* crit dam
+* leech chance
+* leech dam
+* stun chance
+* bonus damage
+* hitroll
+* regen
+* healing
+* luck
+* ac
+* hp/mana/mv
+* all stats
+
+debuffs:
+* chance to be stunned
+* chance to be crit
+* increased bleed damage
+* damage reduction
+* miss chance
+
+
+
+// debuffed person takes additional damage
+    *  Marked: +20% incoming Ranged damage
+    *  Beat Down: +20% incoming Melee damage
+    *  Vulnerable: +20% incoming Force damage
+    *  Overwhelmed: +20% AoE damage
+    *  Compromised: +20% poison damage
+
+// debuffed person causes less damage
+    *  Impaired: -5% Force Damage
+    *  Weakened: -5% Melee and Ranged Damage
+
+// misc
+    *  Trauma: -20% reduced healing
+    *  Sundered: -20% armor class
+    *  Unsteady: random chance per round to trip and fall, lose a round
+    *  Susceptible: higher chance for abilities to not miss
+    *  Assailable: reduced chance to avoid attacks
+    *  Enraged: unable to flee
+    *  Indefensible: Permanent state of opened up
+
+
