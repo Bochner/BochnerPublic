@@ -1,14 +1,4 @@
 
-   Class       Offensive       Defensive
------------    ----------      ---------
-Guardian       Vaapad          Soresu
-Sentinel       Niman           Makashi
-Consular       Telekenetic     Telekenetic
-Gray Jedi      Juyo/Vaapad     Shien/Djem So
-
-Marauder       Juyo            Ataru
-Sith Lord      Telekinetic     Telekinetic
-Dark Master    Juyo            Shien/Djem So    
 
 * Rename Defender to Guardian, there is no such thing as a Jedi Defender. Guardian/Sentinel/Consular are the three recognized by the jedi temple.
 * Rename Blademaster to Lightsaber Combat
