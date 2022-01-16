@@ -22,7 +22,7 @@
 
 // example without explanations
 Weapon Proficiencies (Group)
-  unarmed              : (      adept  lock)  25%  |   vibro blades     : (   grandmaster   ) 100%
+  unarmed              : (      adept  lock)  25%  |   vibro blades     : (   initiate      )   1%
   blasters             : (    grandmaster  ) 100%  |   daggers          : (journeyman   lock)  50%
   dual blasters        : (    grandmaster  ) 100%  |   force pikes      : (    initiate     )   1%
   lightsaber           : (    initiate     )   1%  |   dual sabers      : (    initiate     )   1%
@@ -39,6 +39,8 @@ Combat Proficiencies (Pairs)
 
 Class/Archetype Proficiencies (Pairs)
   Predator             : (   grandmaster   ) 100% <->  Deadeye          : (not learned train)   0%
+    // These are two different archetypes associated with each subguild which allow specialization into two different subsets of skills
+    // Unlocked at lvl 60 with specified subguild
 
 Tech/Force/Physical Proficiencies (Group)
   Mandalorian Weaponry : (    grandmaster  ) 100%  |   Droid General     : (    initiate     )   8%
@@ -78,6 +80,7 @@ Combat Proficiencies (Pairs)
       // heroism increases chance to be noticed and remain the target of combat
   precision            : (not learned train)   0% <->  fearless         : (   grandmaster   ) 100%
       // precision increases chance to hit and critically strike
+      // fearless increases chance to deal additional damage and resist effects
 
 Class/Archetype Proficiencies (Pairs)
       // Archtypes are tied to each subguild/Advanced Class
@@ -85,7 +88,9 @@ Class/Archetype Proficiencies (Pairs)
       // can do 100-0, 50-50, 75-25
       // Unlocked with your lvl 60 subguild
   Predator             : (   grandmaster   ) 100% <->  Deadeye          : (not learned train)   0%
-
+      // Assassin example, could focus on being a Predator and tracking down, distracting and doing huge damage, or be a deadeye and rely on consistent blaster damage
+      // These are two different archetypes associated with each subguild which allow specialization into two different subsets of skills
+      
 Tech/Force/Physical Proficiencies (Group)
       // Can get a max of one to 100%
       // can get a max of one to 75%
