@@ -1,7 +1,7 @@
 
 // Profs idea
     * Have no benefit other than hit chance and some damage
-    * plus to "Dual Blaster Combat" has no real advantage because it cant go above 100 and you can train to that regardless
+    * plus to "Dual Blaster Combat" as an example has no real advantage because it cant go above 100 and you can train to that regardless
 // every 10% in a weapon will add 1 hitroll and 1 damroll with that weapon
 // 25% with every weapon will give a bonus to using that weapon in defensive/offensive
 // 50% will give a small passive to the characer
@@ -18,53 +18,6 @@
 50-74% - journeyman 
 75-99% - master
   100% - grandmaster
-
-// example with explanations
-Weapon Proficiencies (Group)
-    // Weapon profs are in a "group" format
-        * Can have any two weapon profs at 100%
-        * Can have one at 75%
-        * Can have all at 50%, every weapon at 50% gives a small passive bonus giving incentive to train it
-  unarmed              : (      adept  lock)  25%  |   vibro blades     : (   grandmaster   ) 100%
-  blasters             : (    grandmaster  ) 100%  |   daggers          : (journeyman   lock)  50%
-  dual blasters        : (    grandmaster  ) 100%  |   force pikes      : (    initiate     )   1%
-  lightsaber           : (    initiate     )   1%  |   dual sabers      : (    initiate     )   1%
-  dual-bladed saber    : (    initiate     )   1%  |   bowcaster        : (journeyman   lock)  50%
-  force                : (    initiate     )   1%  |   exotic           : (    initiate     )   1%
-  dual force           : (    initiate     )   1%  |   dual exotic      : (journeyman   lock)  50%
-  dual melee           : (     master  lock)  75%  |   dual daggers     : (    initiate     )   1%
-
-Combat Proficiencies (Pairs)
-    // max of 100% between the linked pairs
-    // can do 100-0, 50-50, 75-25
-  mental fortitude     : (not learned train)   0% <->  endurance        : (   grandmaster   ) 100%
-    // mental fortitude focuses on combating and repelling force attacks
-    // endurance focuses on combating and repelling physical attacks
-  reaction             : (not learned train)   0% <->  multi-tasking    : (   grandmaster   ) 100%
-    // reaction gives offensive/defensive bonuses to single handed combat
-    // multi-tasking gives offensive/defense bonuses to multi wield combat
-  subtlety             : (not learned train)   0% <->  heroism          : (   grandmaster   ) 100%
-    // sublety increases your chance to not be aggroed, seen, or switched to in combat
-    // heroism increases chance to be noticed and remain the target of combat
-  precision            : (not learned train)   0% <->  fearless         : (   grandmaster   ) 100%
-    // precision increases chance to hit and critically strike
-
-Class/Archetype Proficiencies (Pairs)
-    // Archtypes are tied to each subguild/Advanced Class
-    // max of 100% between the linked pairs
-    // can do 100-0, 50-50, 75-25
-    // Unlocked with your lvl 60 subguild
-  Predator             : (   grandmaster   ) 100% <->  Deadeye          : (not learned train)   0%
-
-Tech/Force/Physical Proficiencies (Group)
-    // Can get a max of one to 100%
-    // can get a max of one to 75%
-    // can get all to 50%
-  Mandalorian Weaponry : (    initiate     )   5%  |   Droid General     : (    initiate     )   8%
-  Sith Sorcery         : (    initiate     )   3%  |   Jedi Battlemaster : (   grandmaster   ) 100%
-  Jedi Sage            : (   journeyman    )  42%  |   Sith Blademaster  : (   apprentice    )  18%
-  Gray Tutelage        : (     master  lock)  75% 
-
 
 
 // example without explanations
@@ -92,4 +45,56 @@ Tech/Force/Physical Proficiencies (Group)
   Sith Sorcery         : (    initiate     )   3%  |   Jedi Battlemaster : (   apprentice    )   1%
   Jedi Sage            : (   journeyman    )  42%  |   Sith Blademaster  : (   apprentice    )   1%
   Gray Tutelage        : (     master  lock)  75% 
+
+
+
+// example with explanations
+Weapon Proficiencies (Group)
+    // Weapon profs are in a "group" format
+        * Can have any two weapon profs at 100%
+        * Can have one at 75%
+        * Can have all at 50%, every weapon at 50% gives a small passive bonus giving incentive to train it
+        * Profs lock every 25% so you can customize your limits, have to use profunlock to advance it
+  unarmed              : (      adept  lock)  25%  |   vibro blades     : (   grandmaster   ) 100%
+  blasters             : (    grandmaster  ) 100%  |   daggers          : (journeyman   lock)  50%
+  dual blasters        : (    grandmaster  ) 100%  |   force pikes      : (    initiate     )   1%
+  lightsaber           : (    initiate     )   1%  |   dual sabers      : (    initiate     )   1%
+  dual-bladed saber    : (    initiate     )   1%  |   bowcaster        : (journeyman   lock)  50%
+  force                : (    initiate     )   1%  |   exotic           : (    initiate     )   1%
+  dual force           : (    initiate     )   1%  |   dual exotic      : (journeyman   lock)  50%
+  dual melee           : (     master  lock)  75%  |   dual daggers     : (    initiate     )   1%
+
+Combat Proficiencies (Pairs)
+      // max of 100% between the linked pairs
+      // can do 100-0, 50-50, 75-25
+  mental fortitude     : (not learned train)   0% <->  endurance        : (   grandmaster   ) 100%
+      // mental fortitude focuses on combating and repelling force attacks
+      // endurance focuses on combating and repelling physical attacks
+  reaction             : (not learned train)   0% <->  multi-tasking    : (   grandmaster   ) 100%
+      // reaction gives offensive/defensive bonuses to single handed combat
+      // multi-tasking gives offensive/defense bonuses to multi wield combat
+  subtlety             : (not learned train)   0% <->  heroism          : (   grandmaster   ) 100%
+      // sublety increases your chance to not be aggroed, seen, or switched to in combat
+      // heroism increases chance to be noticed and remain the target of combat
+  precision            : (not learned train)   0% <->  fearless         : (   grandmaster   ) 100%
+      // precision increases chance to hit and critically strike
+
+Class/Archetype Proficiencies (Pairs)
+      // Archtypes are tied to each subguild/Advanced Class
+      // max of 100% between the linked pairs
+      // can do 100-0, 50-50, 75-25
+      // Unlocked with your lvl 60 subguild
+  Predator             : (   grandmaster   ) 100% <->  Deadeye          : (not learned train)   0%
+
+Tech/Force/Physical Proficiencies (Group)
+      // Can get a max of one to 100%
+      // can get a max of one to 75%
+      // can get all to 50%
+  Mandalorian Weaponry : (    initiate     )   5%  |   Droid General     : (    initiate     )   8%
+  Sith Sorcery         : (    initiate     )   3%  |   Jedi Battlemaster : (   grandmaster   ) 100%
+  Jedi Sage            : (   journeyman    )  42%  |   Sith Blademaster  : (   apprentice    )  18%
+  Gray Tutelage        : (     master  lock)  75% 
+
+
+
 
