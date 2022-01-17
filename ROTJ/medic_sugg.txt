@@ -65,7 +65,6 @@ Medical Evacuation            90
     // Does not prevent wounds
 Boost Morale                 100
 
-// Casualty Evacuation           65 // remove, pretty useless ability
 
 // Surgeon
 Skill                    Level Learned
@@ -76,23 +75,23 @@ Medical Augmentation         66
     // Only one augmentation can be activated at once
     // Can be used to buff group members or self 
     // Tried to include buffs that would benefit each class
-    Regenerative Nanites     
+    * Regenerative Nanites     
         // Nanites injected into your blood sense when you are taking damage and reactively begin to heal your hp
         // Every time you get hit you get a chance to leech the incoming damage as health instead
-    Revitalizers
+    * Revitalizers
         // Implanted defibrillators will bring you back from the brink of death
         // When triggered, goes on cooldown and removes buff until reused when cooldown is over with              
-    Chemical Counteragents
+    * Chemical Counteragents
         // Makes you immune to all poisons and when you are damaged in combat, your blood poisons the enemy
-    Metabolic Accelerators
+    * Metabolic Accelerators
         // greatly increased regen rates
-    Optical Enhancers
+    * Optical Enhancers
         // immune to blind, can use scan and increase crit chance
-    Droid Distribution System
+    * Droid Distribution System
         // Allows better control of droid followers, increases damage/defense
-    Biotic Amplifier
+    * Biotic Amplifier
         // Large boost to current hp
-    Mental Stimulant
+    * Mental Stimulant
         // Large boost to current force
     
 Abomination                  70
