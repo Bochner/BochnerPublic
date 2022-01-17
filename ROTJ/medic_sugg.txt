@@ -93,7 +93,8 @@ Medical Augmentation         66
         // Large boost to current hp
     * Mental Stimulant
         // Large boost to current force
-    
+    * Plasma Absorbtion Module
+        // Chance to leech
 Abomination                  70
     // maybe remove the requirement for having to tote around a ton of body parts and just be able to summon one, sounds kinda annoying
 Surgical Removal             72
