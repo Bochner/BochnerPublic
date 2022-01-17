@@ -48,6 +48,7 @@ Heal Minor Wound             59
 Skill                    Level Learned
 -----                    -------------
 Combat Healing                60
+// Casualty Evacuation           65 // remove, or rework to where you can choose a group member and set a wimpy like "evac drakge 20 n", will evac drakge at 20% hp to the north
 Combat Diagnostics            65
     // Combat Medics are trained to scan enemies for their weaknesses
     // Augments Diagnose, shows additional flags like !trip on target and puts a "Target Diagnosed" defbuff on target that increases the rate it takes criticals due to combat medic telling the party its diagnosed weaknesses
@@ -91,6 +92,8 @@ Medical Augmentation         66
         // Allows better control of droid followers, increases damage/defense
     Biotic Amplifier
         // Large boost to current hp
+    Mental Stimulant
+        // Large boost to current force
     
 Abomination                  70
     // maybe remove the requirement for having to tote around a ton of body parts and just be able to summon one, sounds kinda annoying
