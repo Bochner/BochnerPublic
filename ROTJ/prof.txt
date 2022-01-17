@@ -9,7 +9,7 @@
 
 // Prof commands
     * Profprac will unlock any prof as long as you arent over your limited
-    * Profunlock will unlock a prof from 25/50/75 and advance is 1%
+    * Profunlock will unlock a prof from 25/50/75 and advance it 1% to the next tier
     * Profrevert will revert a prof back 25% if you want to change your build
 
 // break points
@@ -57,7 +57,7 @@ Weapon Proficiencies (Group)
         * Can have one at 75%
         * Can have all at 50%, every weapon at 50% gives a small passive bonus giving incentive to train it
         * Profs lock every 25% so you can customize your limits, have to use profunlock to advance it
-  unarmed              : (      adept  lock)  25%  |   vibro blades     : (   grandmaster   ) 100%
+  unarmed              : (      adept  lock)  25%  |   vibro blades     : (   initiate      )   1%
   blasters             : (    grandmaster  ) 100%  |   daggers          : (journeyman   lock)  50%
   dual blasters        : (    grandmaster  ) 100%  |   force pikes      : (    initiate     )   1%
   lightsaber           : (    initiate     )   1%  |   dual sabers      : (    initiate     )   1%
@@ -101,5 +101,12 @@ Tech/Force/Physical Proficiencies (Group)
   Gray Tutelage        : (     master  lock)  75% 
 
 
-
+// Progression example for archtypes
+                                     +---Predator 
+                      +---Assassin---|                
+                      |              +---Deadeye   
+Bounty Hunter --------|                                
+                      |              +---Bulwark  
+                      +---Cyborg-----|                
+                                     +---Pyrotech  
 
