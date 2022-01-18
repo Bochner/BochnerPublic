@@ -6,12 +6,15 @@ Create Droid                  1
     // EV-A4 Medical Droid, does minor melee damage, constantly puts a heal over time on the medic and poisons the enemy, hp/stats/healing/damage scales with level up to 100
     // ONLY useable if Medic is your primary profession
     // ONLY one droid at a time, due to the scaling nature of it 
+
+// Example for help file
 Droids available to the all Primary Class Medics:
  
 Level        Droid                       Keyword       Materials
 --------    ---------------             ---------     -------------------
 Level 1     EV-A4 Medical Droid          ev           D(5), N(1)
-    // maybe materials scale with level since healing/damage does too
+    // maybe materials scale with level since healing/damage does too   
+//
 Treat Injury                  1
     // Rework this skill similar to how create droid and manufacture are, where its one command that unlocks multiple you level 
     Minor                     1
@@ -52,7 +55,7 @@ Combat Healing                60
 Combat Diagnostics            65
     // Combat Medics are trained to scan enemies for their weaknesses
     // Augments Diagnose, shows additional flags like !trip on target and puts a "Target Diagnosed" defbuff on target that increases the rate it takes criticals due to combat medic telling the party its diagnosed weaknesses
-    // Usable while combat healing
+    // Usable in combat while combat healing
 Professional First Aid        70
 Take Cover                    75
 Medic Neutrality              80
